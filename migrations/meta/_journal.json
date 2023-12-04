@@ -15,6 +15,13 @@
       "when": 1701639051681,
       "tag": "0001_smart_dorian_gray",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1701651264201,
+      "tag": "0002_lying_enchantress",
+      "breakpoints": true
     }
   ]
 }
