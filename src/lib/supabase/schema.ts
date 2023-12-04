@@ -14,6 +14,7 @@ import {
   subscriptionStatus,
   users,
 } from '../../../migrations/schema';
+import { HeadersAdapter } from 'next/dist/server/web/spec-extension/adapters/headers';
 
 export const workspaces = pgTable('workspaces', {
   id: uuid('id').defaultRandom().primaryKey().notNull(),
