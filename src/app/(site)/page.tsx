@@ -1,3 +1,4 @@
+import TitleSection from '@/components/landing-page/title-section'
 import React from 'react'
 
 const HomePage = () => {
@@ -15,7 +16,9 @@ const HomePage = () => {
             md:justify-center 
             md:items-center
             '>
-
+              <TitleSection 
+              pill='Your workspace, Perfected'
+              title='All in One Collaboration and Productivity Platform' />
             </div>
         </section>
     </div>
