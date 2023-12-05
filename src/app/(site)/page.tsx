@@ -1,6 +1,8 @@
 import TitleSection from '@/components/landing-page/title-section'
 import { Button } from "@/components/ui/button"
 import React from 'react'
+import Image from 'next/image';
+import Banner from '../../../public/appBanner.png'
 
 const HomePage = () => {
   return (
@@ -35,6 +37,29 @@ const HomePage = () => {
                 className='w-full rounded-[10px]
                 p-6 text-2xl bg-background
                 '>Get Cypress Free</Button>
+              </div>
+              <div className='
+              md:mt-[-90px]
+              sm:w-full
+              w-[750px]
+              flex
+              justify-center
+              items-center
+              mt-[-40px]
+              relative
+              sm:ml-0
+              ml-[-50px]
+              '>
+                <Image src={Banner}
+                alt='Application Banner'/>
+                <div className='botton-0 
+                top-[50%]
+                bg-gradient-to-t
+                dark:from-background
+                left-0
+                right-0
+                absolute
+                z-10'></div>
               </div>
             </div>
         </section>
