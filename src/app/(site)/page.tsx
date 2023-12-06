@@ -6,9 +6,8 @@ import Banner from '../../../public/appBanner.png'
 
 const HomePage = () => {
   return (
-    <div>
-        <section>
-            <div 
+    <>
+      <section 
             className='overflow-hidden
             px-4
             sm:px-6 
@@ -61,9 +60,35 @@ const HomePage = () => {
                 absolute
                 z-10'></div>
               </div>
-            </div>
-        </section>
-    </div>
+      </section>
+      <section className='relative'>
+        <div className='overflow-hidden
+        flex
+        before:content[""] 
+        before:dark:from-brand-dark
+        before:to-transparent
+        before:from-background
+        before:bg-gradient-to-r
+        before:left-0
+        before:bottom-0
+        before:w-20
+        before:z-10
+        before:absolute
+
+        after:content[""] 
+        after:dark:from-brand-dark
+        after:to-transparent
+        after:from-background
+        after:bg-gradient-to-l
+        after:right-0
+        after:bottom-0
+        after:top-0
+        after:w-20
+        after:z-10
+        after:absolute
+        '></div>
+      </section>
+    </>
   )
 }
 
