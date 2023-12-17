@@ -20,7 +20,6 @@ const LoginPage = () => {
     const onSubmit:SubmitHandler<z.infer<typeof FormSchema>> =  async (formData) => {
     };
 
-
     return (
     <div>LoginPage</div>
     )
