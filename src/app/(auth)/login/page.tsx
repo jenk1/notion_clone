@@ -9,7 +9,6 @@ const LoginPage = () => {
     const router = useRouter();
     const [submitError, setSubmitError] = useState('');
 
-    
     const form = useForm<z.infer<typeof FormSchema>>({
         mode: 'onChange',
         resolver: zodResolver(FormSchema),
