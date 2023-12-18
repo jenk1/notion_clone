@@ -60,6 +60,7 @@ const LoginPage = () => {
         >
             An all-In-One Collaboration and Productivity Platform
         </FormDescription>
+        <div className='mt-4 mb-4'>
         <FormField
             disabled={isLoading}
             control={form.control}
@@ -77,6 +78,8 @@ const LoginPage = () => {
             </FormItem>
             )}
         />
+        </div>
+        <div className='mb-4'>
         <FormField
             disabled={isLoading}
             control={form.control}
@@ -94,10 +97,11 @@ const LoginPage = () => {
             </FormItem>
             )}
         />
+        </div>
         {submitError && <FormMessage>{submitError}</FormMessage>}
         <Button
             type="submit"
-            className="w-full p-6"
+            className="w-full p-6 mb-4 mt-4"
             size="lg"
             disabled={isLoading}
         >
